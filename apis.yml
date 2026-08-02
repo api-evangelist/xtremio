@@ -1,11 +1,29 @@
 aid: xtremio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xtremio.png
 name: XtremIO
-description: XtremIO is a company surfaced as a portfolio company of battery-ventures, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: XtremIO was an Israeli all-flash enterprise storage company founded in 2009
+  and acquired by EMC in May 2012 for $430 million, with the technology continuing as the
+  Dell EMC XtremIO all-flash array product line. Surfaced in the API Evangelist network as
+  a portfolio company of Battery Ventures and Lightspeed Venture Partners, XtremIO no longer
+  operates independently and publishes no public developer program — xtremio.com is a parked
+  domain retained under Dell brand protection, with DNS still actively managed by Dell.
 url: https://raw.githubusercontent.com/api-evangelist/xtremio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: dell-emc
+x-acquisition: EMC, May 2012, $430M
 x-backed-by:
 - battery-ventures
 - lightspeed-venture-partners
@@ -13,12 +31,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Storage
+- Flash Storage
+- Enterprise Storage
+- Data Center
+- Acquired
 apis: []
+common:
+- name: Domain Security
+  type: DomainSecurity
+  url: security/xtremio-domain-security.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/xtremio-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

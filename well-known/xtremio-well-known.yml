@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+host: http://xtremio.com
+note: The parked host (Safenames placeholder; HTTPS not served) catch-alls EVERY path with
+  the same 9,106-byte parked HTML page, so the 200 statuses below are false positives — no
+  genuine well-known document is published. Raw files were deliberately NOT saved and no
+  WellKnown/SecurityTxt pointer is wired, because nothing real exists at these paths.
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    genuine: false
+    content_type: text/html
+  - path: /.well-known/openid-configuration
+    status: 200
+    genuine: false
+    content_type: text/html
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    genuine: false
+    content_type: text/html
+  - path: /.well-known/api-catalog
+    status: 200
+    genuine: false
+    content_type: text/html
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    genuine: false
+    content_type: text/html
+  - path: /llms.txt
+    status: 200
+    genuine: false
+    content_type: text/html

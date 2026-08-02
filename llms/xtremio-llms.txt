@@ -1,0 +1,13 @@
+# XtremIO
+
+> XtremIO was an Israeli all-flash enterprise storage company founded in 2009 and acquired by EMC in May 2012 for $430 million; the technology continued as the Dell EMC XtremIO all-flash array product line. XtremIO no longer operates as an independent company and publishes no public developer program: xtremio.com is a parked domain (Safenames placeholder) retained under Dell brand protection.
+
+This profile is part of the API Evangelist network catalog. XtremIO is tracked as a
+venture-portfolio company (Battery Ventures, Lightspeed Venture Partners) that exited
+by acquisition. The product's management REST API is documented by Dell for customers
+of the appliance; there is no public, self-serve API surface to index for XtremIO itself.
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/xtremio/refs/heads/main/apis.yml): machine-readable profile of this company
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/xtremio/refs/heads/main/security/xtremio-domain-security.yml): observed TLS/DNS posture of xtremio.com (parked; Dell-managed DNS)
