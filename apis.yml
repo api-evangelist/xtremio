@@ -48,7 +48,7 @@ tags:
 - Storage
 - Flash Storage
 - Enterprise Storage
-- Data-Center
+- Data Center
 - Acquired
 tags_raw:
 - Company
@@ -57,6 +57,7 @@ tags_raw:
 - Enterprise Storage
 - Data Center
 - Acquired
+- Data-Center
 apis: []
 common:
 - name: Domain Security
